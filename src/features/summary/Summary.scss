@@ -1,0 +1,31 @@
+.summary-container {
+  max-width: 700px;
+
+  .summary__avatar {
+    display: flex;
+    flex-direction: row;
+    img {
+      border: 2px green solid;
+      border-radius: 50%;
+      width: 40px;
+    }
+  }
+  .summary__state {
+    display: flex;
+    flex-direction: row;
+    > div {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  .counter {
+    text-align: center;
+  }
+}
+.summary-header {
+  background-color: orange;
+  color: white;
+  text-align: center;
+}
